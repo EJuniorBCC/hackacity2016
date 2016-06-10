@@ -1,0 +1,104 @@
+/* -- Utils -- */
+
+a:link {
+    background-color: transparent !important;
+}
+
+.oe-button,
+.oe-button:hover {
+    background-color: #438cca;
+    color: #fff;
+}
+
+.oe-firstcolor {
+    background-color: #438cca;
+}
+
+.oe-secondcolor {
+    background-color: #f7ab08;
+}
+
+.white-text {
+    color: #fff;
+}
+
+.content-bg {
+    background-color: #f3f3f3;
+}
+
+.white-icon{
+    color: #fff;
+    opacity: 1;
+}
+
+
+/* -- Side Menu  -- */
+
+.menu .bar.bar-header.menu-profile {
+    min-height: 150px;
+    color: #fff;
+    border: none;
+}
+
+.menu .bar.bar-header.menu-profile {
+    background-image: url('../img/menu-bg.png');
+    background-size: cover;
+    background-position: 0%;
+}
+
+.has-profile {
+    top: 150px !important;
+}
+
+.profile-name {
+    bottom: 16px;
+    left: 16px;
+    right: 16px;
+    position: absolute;
+    font-weight: bold;
+    font-size: 1.em;
+}
+
+.menu .avatar {
+    top: 16px;
+    left: 16px;
+    height: 90px;
+    width: 90px;
+    border-radius: 50%;
+    margin-top: 0.5em;
+    margin-left: 0.5em;
+}
+
+.menu-item,
+.menu-item:link {
+    background-color: #f3f3f3;
+    color: #438cca;
+    font-size: 1.2em;
+    border: none;
+    margin-top: 0px !important;
+}
+
+
+/* -- Mapa -- */
+
+#map {
+    width: 100%;
+    height: 100%;
+}
+
+.scroll {
+    height: 100%;
+}
+
+.marker-info p {
+    margin: 0 0.2em 0.2em;
+}
+
+.marker-info .details {
+    font-size: 1em;
+    color: #008dce;
+    font-weight: bold;
+}
+
+
+/* -- Pesquisa -- */

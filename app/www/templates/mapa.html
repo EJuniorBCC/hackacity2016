@@ -1,0 +1,18 @@
+<ion-view cache-view="false" view-title="Mapa">
+    <ion-content ng-init="loadMap()">
+        <!-- Mapa -->
+        <div id="map" data-tap-disabled="true" ng-show="isSelected('mapa')"></div>
+        <!-- Lista de Escolas -->
+        <div ng-show="isSelected('lista')">
+            <p>Escola</p>
+        </div>
+        <div class="tabs tabs-icon-top oe-firstcolor">
+            <a class="tab-item white-icon" ng-click="selectTab('mapa')">
+                <i class="icon ion-map"></i> Mapa
+            </a>
+            <a class="tab-item white-icon" ng-click="selectTab('lista')">
+                <i class="icon ion-ios-list-outline"></i> Lista
+            </a>
+        </div>
+    </ion-content>
+</ion-view>
